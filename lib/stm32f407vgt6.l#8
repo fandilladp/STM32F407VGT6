@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="STM32F407VGT6">
+<pad name="PIN0" x="0" y="0" drill="0.6"/>
+<pad name="PIN1" x="0" y="-2.5" drill="0.6"/>
+<pad name="PIN2" x="0" y="-5" drill="0.6"/>
+<pad name="PIN3" x="0" y="-7.5" drill="0.6"/>
+<pad name="PIN4" x="0" y="-10" drill="0.6"/>
+<pad name="PIN5" x="0" y="-12.5" drill="0.6"/>
+<pad name="PIN6" x="0" y="-15" drill="0.6"/>
+<pad name="PIN7" x="0" y="-17.5" drill="0.6"/>
+<pad name="PIN8" x="0" y="-20" drill="0.6"/>
+<pad name="PIN9" x="0" y="-22.5" drill="0.6"/>
+<pad name="PIN10" x="0" y="-25" drill="0.6"/>
+<pad name="PIN11" x="0" y="-27.5" drill="0.6"/>
+<pad name="PIN12" x="0" y="-30" drill="0.6"/>
+<pad name="PIN13" x="0" y="-32.5" drill="0.6"/>
+<pad name="PIN14" x="0" y="-35" drill="0.6"/>
+<pad name="PIN15" x="0" y="-37.5" drill="0.6"/>
+<pad name="PIN16" x="0" y="-40" drill="0.6"/>
+<pad name="PIN17" x="0" y="-42.5" drill="0.6"/>
+<pad name="PIN18" x="0" y="-45" drill="0.6"/>
+<pad name="PIN19" x="0" y="-47.5" drill="0.6"/>
+<pad name="PIN20" x="0" y="-50" drill="0.6"/>
+<pad name="PIN21" x="0" y="-52.5" drill="0.6"/>
+<pad name="PIN22" x="2.5" y="-52.5" drill="0.6"/>
+<pad name="PIN23" x="2.5" y="-50" drill="0.6"/>
+<pad name="PIN24" x="2.5" y="-47.5" drill="0.6"/>
+<pad name="PIN25" x="2.5" y="-45" drill="0.6"/>
+<pad name="PIN26" x="2.5" y="-42.5" drill="0.6"/>
+<pad name="PIN27" x="2.5" y="-40" drill="0.6"/>
+<pad name="PIN28" x="2.5" y="-37.5" drill="0.6"/>
+<pad name="PIN29" x="2.5" y="-35" drill="0.6"/>
+<pad name="PIN30" x="2.5" y="-32.5" drill="0.6"/>
+<pad name="PIN31" x="2.5" y="-30" drill="0.6"/>
+<pad name="PIN32" x="2.5" y="-27.5" drill="0.6"/>
+<pad name="PIN33" x="2.5" y="-25" drill="0.6"/>
+<pad name="PIN34" x="2.5" y="-22.5" drill="0.6"/>
+<pad name="PIN35" x="2.5" y="-20" drill="0.6"/>
+<pad name="PIN36" x="2.5" y="-17.5" drill="0.6"/>
+<pad name="PIN37" x="2.5" y="-15" drill="0.6"/>
+<pad name="PIN38" x="2.5" y="-12.5" drill="0.6"/>
+<pad name="PIN39" x="2.5" y="-10" drill="0.6"/>
+<pad name="PIN40" x="2.5" y="-7.5" drill="0.6"/>
+<pad name="PIN41" x="2.5" y="-5" drill="0.6"/>
+<pad name="PIN42" x="2.5" y="-2.5" drill="0.6"/>
+<pad name="PIN43" x="2.5" y="0" drill="0.6"/>
+<pad name="PR0" x="0.01" y="0" drill="0.6"/>
+<pad name="PINR0" x="0.02" y="0" drill="0.6"/>
+<pad name="PINR1" x="0.02" y="-2.5" drill="0.6"/>
+<pad name="PINR2" x="0.02" y="-5" drill="0.6"/>
+<pad name="PINR3" x="0.02" y="-7.5" drill="0.6"/>
+<pad name="PINR4" x="0.02" y="-10" drill="0.6"/>
+<pad name="PINR5" x="0.02" y="-12.5" drill="0.6"/>
+<pad name="PINR6" x="0.02" y="-15" drill="0.6"/>
+<pad name="PINR7" x="0.02" y="-17.5" drill="0.6"/>
+<pad name="PINR8" x="0.02" y="-20" drill="0.6"/>
+<pad name="PINR9" x="0.02" y="-22.5" drill="0.6"/>
+<pad name="PINR10" x="0.02" y="-25" drill="0.6"/>
+<pad name="PINR11" x="2.52" y="-25" drill="0.6"/>
+<pad name="PINR12" x="2.52" y="-22.5" drill="0.6"/>
+<pad name="PINR13" x="2.52" y="-20" drill="0.6"/>
+<pad name="PINR14" x="2.52" y="-17.5" drill="0.6"/>
+<pad name="PINR15" x="2.52" y="-15" drill="0.6"/>
+<pad name="PINR16" x="2.52" y="-12.5" drill="0.6"/>
+<pad name="PINR17" x="2.52" y="-10" drill="0.6"/>
+<pad name="PINR18" x="2.52" y="-7.5" drill="0.6"/>
+<pad name="PINR19" x="2.52" y="-5" drill="0.6"/>
+<pad name="PINR20" x="2.52" y="-2.5" drill="0.6"/>
+<pad name="PINR21" x="2.52" y="0" drill="0.6"/>
+<pad name="PIN00" x="0.03" y="0" drill="0.6" shape="square"/>
+<pad name="PIN01" x="0.03" y="-2.5" drill="0.6"/>
+<pad name="PIN02" x="0.03" y="-5" drill="0.6"/>
+<pad name="PIN03" x="0.03" y="-7.5" drill="0.6"/>
+<pad name="PIN04" x="0.03" y="-10" drill="0.6"/>
+<pad name="PIN05" x="0.03" y="-12.5" drill="0.6"/>
+<pad name="PIN06" x="0.03" y="-15" drill="0.6"/>
+<pad name="PIN07" x="0.03" y="-17.5" drill="0.6"/>
+<pad name="PIN08" x="0.03" y="-20" drill="0.6"/>
+<pad name="PIN09" x="0.03" y="-22.5" drill="0.6"/>
+<pad name="PIN010" x="0.03" y="-25" drill="0.6"/>
+<pad name="PIN011" x="0.03" y="-27.5" drill="0.6"/>
+<pad name="PIN012" x="0.03" y="-30" drill="0.6"/>
+<pad name="PIN013" x="0.03" y="-32.5" drill="0.6"/>
+<pad name="PIN014" x="0.03" y="-35" drill="0.6"/>
+<pad name="PIN015" x="0.03" y="-37.5" drill="0.6"/>
+<pad name="PIN016" x="0.03" y="-40" drill="0.6"/>
+<pad name="PIN017" x="0.03" y="-42.5" drill="0.6"/>
+<pad name="PIN018" x="0.03" y="-45" drill="0.6"/>
+<pad name="PIN019" x="0.03" y="-47.5" drill="0.6"/>
+<pad name="PIN020" x="0.03" y="-50" drill="0.6"/>
+<pad name="PIN021" x="0.03" y="-52.5" drill="0.6"/>
+<pad name="PIN022" x="2.53" y="-52.5" drill="0.6"/>
+<pad name="PIN023" x="2.53" y="-50" drill="0.6"/>
+<pad name="PIN024" x="2.53" y="-47.5" drill="0.6"/>
+<pad name="PIN025" x="2.53" y="-45" drill="0.6"/>
+<pad name="PIN026" x="2.53" y="-42.5" drill="0.6"/>
+<pad name="PIN027" x="2.53" y="-40" drill="0.6"/>
+<pad name="PIN028" x="2.53" y="-37.5" drill="0.6"/>
+<pad name="PIN029" x="2.53" y="-35" drill="0.6"/>
+<pad name="PIN030" x="2.53" y="-32.5" drill="0.6"/>
+<pad name="PIN031" x="2.53" y="-30" drill="0.6"/>
+<pad name="PIN032" x="2.53" y="-27.5" drill="0.6"/>
+<pad name="PIN033" x="2.53" y="-25" drill="0.6"/>
+<pad name="PIN034" x="2.53" y="-22.5" drill="0.6"/>
+<pad name="PIN035" x="2.53" y="-20" drill="0.6"/>
+<pad name="PIN036" x="2.53" y="-17.5" drill="0.6"/>
+<pad name="PIN037" x="2.53" y="-15" drill="0.6"/>
+<pad name="PIN038" x="2.53" y="-12.5" drill="0.6"/>
+<pad name="PIN039" x="2.53" y="-10" drill="0.6"/>
+<pad name="PIN040" x="2.53" y="-7.5" drill="0.6"/>
+<pad name="PIN041" x="2.53" y="-5" drill="0.6"/>
+<pad name="PIN042" x="2.53" y="-2.5" drill="0.6"/>
+<pad name="PIN043" x="2.53" y="0" drill="0.6"/>
+<pad name="PI00" x="34.81" y="-0.12" drill="0.6"/>
+<pad name="PI01" x="34.81" y="-2.62" drill="0.6"/>
+<pad name="PI02" x="34.81" y="-5.12" drill="0.6"/>
+<pad name="PI03" x="34.81" y="-7.62" drill="0.6"/>
+<pad name="PI04" x="34.81" y="-10.12" drill="0.6"/>
+<pad name="PI05" x="34.81" y="-12.62" drill="0.6"/>
+<pad name="PI06" x="34.81" y="-15.12" drill="0.6"/>
+<pad name="PI07" x="34.81" y="-17.62" drill="0.6"/>
+<pad name="PI08" x="34.81" y="-20.12" drill="0.6"/>
+<pad name="PI09" x="34.81" y="-22.62" drill="0.6"/>
+<pad name="PI010" x="34.81" y="-25.12" drill="0.6"/>
+<pad name="PI011" x="34.81" y="-27.62" drill="0.6"/>
+<pad name="PI012" x="34.81" y="-30.12" drill="0.6"/>
+<pad name="PI013" x="34.81" y="-32.62" drill="0.6"/>
+<pad name="PI014" x="34.81" y="-35.12" drill="0.6"/>
+<pad name="PI015" x="34.81" y="-37.62" drill="0.6"/>
+<pad name="PI016" x="34.81" y="-40.12" drill="0.6"/>
+<pad name="PI017" x="34.81" y="-42.62" drill="0.6"/>
+<pad name="PI018" x="34.81" y="-45.12" drill="0.6"/>
+<pad name="PI019" x="34.81" y="-47.62" drill="0.6"/>
+<pad name="PI020" x="34.81" y="-50.12" drill="0.6"/>
+<pad name="PI021" x="34.81" y="-52.62" drill="0.6"/>
+<pad name="PI022" x="37.31" y="-52.62" drill="0.6"/>
+<pad name="PI023" x="37.31" y="-50.12" drill="0.6"/>
+<pad name="PI024" x="37.31" y="-47.62" drill="0.6"/>
+<pad name="PI025" x="37.31" y="-45.12" drill="0.6"/>
+<pad name="PI026" x="37.31" y="-42.62" drill="0.6"/>
+<pad name="PI027" x="37.31" y="-40.12" drill="0.6"/>
+<pad name="PI028" x="37.31" y="-37.62" drill="0.6"/>
+<pad name="PI029" x="37.31" y="-35.12" drill="0.6"/>
+<pad name="PI030" x="37.31" y="-32.62" drill="0.6"/>
+<pad name="PI031" x="37.31" y="-30.12" drill="0.6"/>
+<pad name="PI032" x="37.31" y="-27.62" drill="0.6"/>
+<pad name="PI033" x="37.31" y="-25.12" drill="0.6"/>
+<pad name="PI034" x="37.31" y="-22.62" drill="0.6"/>
+<pad name="PI035" x="37.31" y="-20.12" drill="0.6"/>
+<pad name="PI036" x="37.31" y="-17.62" drill="0.6"/>
+<pad name="PI037" x="37.31" y="-15.12" drill="0.6"/>
+<pad name="PI038" x="37.31" y="-12.62" drill="0.6"/>
+<pad name="PI039" x="37.31" y="-10.12" drill="0.6"/>
+<pad name="PI040" x="37.31" y="-7.62" drill="0.6"/>
+<pad name="PI041" x="37.31" y="-5.12" drill="0.6"/>
+<pad name="PI042" x="37.31" y="-2.62" drill="0.6"/>
+<pad name="PI043" x="37.31" y="-0.12" drill="0.6"/>
+<wire x1="-2.49" y1="0.08" x2="-2.49" y2="2.38" width="0.127" layer="51"/>
+<wire x1="-2.49" y1="2.38" x2="39.85" y2="2.38" width="0.127" layer="51"/>
+<wire x1="39.85" y1="2.38" x2="39.85" y2="-55.02" width="0.127" layer="51"/>
+<wire x1="39.85" y1="-55.02" x2="-2.49" y2="-55.02" width="0.127" layer="51"/>
+<wire x1="-2.49" y1="-55.02" x2="-2.49" y2="0.06" width="0.127" layer="51"/>
+</package>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>
